@@ -16,11 +16,13 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .box {
-    min-width: 310px;
-    max-width: 310px;
+
+    min-width: 300px;
+    max-width: 300px;
     height: 440px;
     background-color: white;
     padding: 30px;
@@ -36,10 +38,9 @@ img {
 h2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-size: small;
+    font-size: 1em;
     color: hsl(228, 12%, 48%);
 }
-
 
 h1 {
     font-family: 'Fraunces', serif;
@@ -47,7 +48,7 @@ h1 {
     color: hsl(212, 21%, 14%);
 }
 
-h1.preconormal {
+h1.pnormal {
     color: hsl(158, 36%, 37%);
 }
 
@@ -55,12 +56,13 @@ p {
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     font-size: 1em;
-
     color: hsl(228, 12%, 48%);
 }
-nav{
+
+nav {
     max-width: 300px;
 }
+
 ul {
     margin-left: -40px;
 }
@@ -71,7 +73,50 @@ ul li {
 }
 
 li#p {
-    margin-left: 20px;
+    margin-left: 40px;
+    font-size: 0.8em;
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
+}
+
+.btn {
+    font-size: 0.9em;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: hsl(159, 39%, 17%);
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+
+.imgbtn {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: hsl(228, 12%, 48%);
+}
+
+footer>a {
+
+    text-decoration: none;
+    color: hsl(159, 39%, 17%);
+    ;
+}
+
+footer>a:hover {
+
+    text-decoration: underline;
+    color: white;
 }
