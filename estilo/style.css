@@ -101,7 +101,7 @@ li#p {
 
 footer {
     font-size: 12px;
-    padding: 8px;
+    padding: 7px;
     text-align: center;
     color: white;
     font-weight: bolder;
@@ -112,7 +112,6 @@ footer>a {
 
     text-decoration: none;
     color: hsl(159, 39%, 17%);
-    ;
 }
 
 footer>a:hover {
